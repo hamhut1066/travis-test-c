@@ -1,5 +1,4 @@
 #include <math.h>
-#include <stdio.h>
 char isPrime (unsigned long number)
 {
     if (number <= 1) {
@@ -17,5 +16,5 @@ char isPrime (unsigned long number)
 
 int main()
 {
-    printf("%d", isPrime(3));
+  int num = log(32);
 }
